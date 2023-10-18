@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    background-color: black;
+    
+}
+img{
+    width: 100%;
+}
+.header{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.card{
+    background-color: white;
+    margin: auto;
+    width: 400px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 6px;
+    
+}
+.texto{
+    background-color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+title{
+    margin-top: 0;
+}
+.fa{
+    font-size: 25px;
+    margin-inline: 2px;
+}
+.headerinf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerinf h2, .headerinf p{
+    margin: 0;
+    margin-left: 5px;
+}
+h2{
+    font-size: medium;
+}
+p{
+    margin-left: 4px;
+}
