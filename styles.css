@@ -1,18 +1,22 @@
 body{
     display: flex;
-    background-color: black;
-    
+    background-color: black; 
 }
 img{
     width: 100%;
 }
 .header{
-    flex-direction: row;
-    justify-content: space-between;
     background-color: white;
-    display: flex;
     align-items: center;
     padding: 6px;
+}
+.headericon{
+    display: flex;
+    margin-inline-end: auto;
+}
+.fa-ellipsis-v{
+    display: flex;
+    justify-content: end;
 }
 .card{
     background-color: white;
@@ -41,8 +45,8 @@ title{
 }
 .headerinf{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:space-around;
     align-items: center;
 }
 .headerinf h2, .headerinf p{
